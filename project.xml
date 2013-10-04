@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="LobMiner" package="com.wilbefast.lobminer" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="LobMiner" />
+	
+	<source path="Source" />
+	<source path="Source/hacksaw" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+
+	<window width="800" height="450" fullscreen="false" if="desktop" />
+	
+</project>
